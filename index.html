@@ -23,7 +23,7 @@
             font-size: 16px;
         }
 
-       header {
+  header {
     background-color: var(--primary-color);
     color: white;
     padding: 10px 0; /* Diminui o padding */
@@ -43,6 +43,19 @@
     padding: 0 10px; /* Diminui o padding lateral */
     height: 50px; /* Define uma altura menor */
 }
+
+/* Media query para dispositivos móveis */
+@media (max-width: 600px) {
+    header {
+        padding: 5px 0; /* Diminui ainda mais o padding */
+    }
+
+    .header-content {
+        padding: 0 5px; /* Diminui o padding lateral */
+        height: 40px; /* Define uma altura menor para dispositivos móveis */
+    }
+}
+
 
         h1 {
             font-size: 28px;
