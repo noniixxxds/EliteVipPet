@@ -26,48 +26,24 @@
 
 
 header {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 10px 0; /* Ajuste o padding conforme necessário */
-    position: fixed;
-    width: 10%;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
+            background-color: var(--primary-color);
+            color: white;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
 
-.header-content {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px; /* Ajuste o padding lateral conforme necessário */
-    height: 50px; /* Ajuste a altura conforme necessário */
-}
-
-/* Media query para dispositivos móveis */
-@media (max-width: 600px) {
-    header {
-        padding: 5px 0; /* Diminui ainda mais o padding */
-    }
-
-    .header-content {
-        padding: 0 5px; /* Diminui o padding lateral */
-        height: 40px; /* Define uma altura menor para dispositivos móveis */
-        flex-direction: column; /* Alinha os itens em coluna para dispositivos móveis */
-        text-align: center; /* Centraliza o texto */
-    }
-
-    .header-content img {
-        margin-bottom: 10px; /* Adiciona espaço entre o logo e os ícones */
-    }
-}
-
-
-
-
-
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
 
 
 
